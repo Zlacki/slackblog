@@ -164,7 +164,7 @@ int main(void) {
 	printf("\t\t\t<a href=\"http://jigsaw.w3.org/css-validator/check/referer\"><img style=\"border:0;width:88px;height:31px\" src=\"http://jigsaw.w3.org/css-validator/images/vcss\" alt=\"Valid CSS!\"></a><br>\n");
 	end = clock();
 	time_spent = (double) (end - begin) / CLOCKS_PER_SEC;
-	printf("Execution time: %.4f\n", time_spent);
+	printf("Execution time: %.3f\n", time_spent);
 	printf("\t\t</div>\n");
 	printf("\t</body>\n");
 	printf("</html>");
