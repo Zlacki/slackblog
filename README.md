@@ -20,3 +20,4 @@ Sample style included, derived from Tanami Browne's http://9ch.in/ website.
 
 Any merge requests would be helpful.
 
+ - Zach Knight <zach@libslack.so>
