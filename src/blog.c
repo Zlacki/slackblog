@@ -127,7 +127,7 @@ int main(void) {
 	printf("\t\t<meta http-equiv=\"expires\" content=\"-1\">\n");
 	printf("\t\t<meta name=\"keywords\" content=\"slackware, slack, ware, church, of, bob, slacky, programming, libslack, libslack.so, pharmaceuticals, meds, medications, drugs\">\n");
 	printf("\t\t<meta name=\"description\" content=\"Sanctuary of Slack\">\n");
-	printf("\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style/index.css\" media=\"screen\">\n");
+	printf("\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style/tan.css\" media=\"screen\">\n");
 	printf("\t</head>\n");
 	printf("\t<body>\n");
 	printf("\t\t<h1>Sanctuary of Slack</h1>\n");
@@ -145,10 +145,11 @@ int main(void) {
 	}
 	printf("\t\t<div id=\"footer\">\n");
 	printf("\t\t\t<a href=\"http://validator.w3.org/check?uri=referer\"><img src=\"http://www.w3.org/Icons/valid-html401\" alt=\"Valid HTML 4.01 Strict\" height=\"31\" width=\"88\"></a>\n");
-	printf("\t\t\t<a href=\"http://jigsaw.w3.org/css-validator/check/referer\"><img style=\"border:0;width:88px;height:31px\" src=\"http://jigsaw.w3.org/css-validator/images/vcss\" alt=\"Valid CSS!\"></a><br>\n");
+	printf("\t\t\t<a href=\"http://jigsaw.w3.org/css-validator/check/referer\"><img style=\"border:0;width:88px;height:31px\" src=\"http://jigsaw.w3.org/css-validator/images/vcss\" alt=\"Valid CSS!\"></a><br><br>\n");
 	end = clock();
 	time_spent = (double) (end - begin) / CLOCKS_PER_SEC;
-	printf("Execution time: %.3f\n", time_spent);
+	printf("\t\t\tExecution time: %.3f<br><br>\n", time_spent);
+	printf("\t\t\tWebsite content released under a <b><a href=\"http://creativecommons.org/about/cc0\">Creative Commons CC0 Public Domain Dedication</a></b> except where an alternate is specified.<br><br>\n");
 	printf("\t\t</div>\n");
 	printf("\t</body>\n");
 	printf("</html>");

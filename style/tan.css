@@ -103,6 +103,7 @@ a:hover {
 
 .entry {
   border-top:1px solid rgb(191, 191, 191);
+  border-bottom: 1px solid rgb(192, 192, 192);
   padding-top: 1em;
   padding-right: 10px;
   text-align: center
@@ -113,7 +114,6 @@ a:hover {
 }
 
 .entry .date {
-  border-bottom:1px solid rgb(192, 192, 192);
   margin-bottom: -20px;
   padding-bottom: 1em;
 }
