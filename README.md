@@ -3,7 +3,7 @@ slackblog
 
 CGI Blogging using C
 
-Alpha, maybe beta level software, licensed under WTFPLv2(public domain worldwide).
+Beta level software, licensed under CC0 public domain license.
 Written by Zach Knight
 C99 backend to blog software using CGI.
 
